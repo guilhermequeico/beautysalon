@@ -1,0 +1,7 @@
+.divider {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--light-gray);
+}
