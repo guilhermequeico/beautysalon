@@ -22,3 +22,8 @@ body {
     line-height: 2.6rem;
     color: var(--gray);
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
