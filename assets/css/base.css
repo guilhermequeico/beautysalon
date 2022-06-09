@@ -21,6 +21,7 @@ body {
     font-size: 1.6rem;
     line-height: 2.6rem;
     color: var(--gray);
+    background-color: var(--background-1);
 }
 
 img {
@@ -30,4 +31,8 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.section {
+    padding-block: 8rem;
 }
