@@ -36,3 +36,8 @@ a {
 .section {
     padding-block: 8rem;
 }
+
+.grid {
+    display: grid;
+    gap: 3.2rem;
+}
