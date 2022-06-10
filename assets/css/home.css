@@ -1,0 +1,32 @@
+#home {
+    padding-top: 0;
+}
+
+#home .container {
+    margin-inline: 0;
+}
+
+#home .image {
+    width: 33.592rem;
+    height: 22.432rem;
+    margin-top: 7.268rem;
+    position: relative;
+    left: -.8rem;
+}
+
+#home .image::before {
+    content: '';
+    width: 34.789rem;
+    height: 24.227rem;
+    border-radius: .4rem;
+    background-color: var(--second-color);
+    position: absolute;
+    top: -18%;
+    left: 14.7%;
+    z-index: -1;
+}
+
+#home .text {
+    padding-inline: 2.4rem;
+    text-align: center;
+}
