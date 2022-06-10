@@ -18,7 +18,6 @@
     content: '';
     width: 34.789rem;
     height: 24.227rem;
-    border-radius: .4rem;
     background-color: var(--second-color);
     position: absolute;
     top: -18%;
@@ -26,6 +25,7 @@
     z-index: -1;
 }
 
+#home .image::before,
 #home .image img {
     border-radius: .4rem;
 }
