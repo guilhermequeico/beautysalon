@@ -26,6 +26,10 @@
     z-index: -1;
 }
 
+#home .image img {
+    border-radius: .4rem;
+}
+
 #home .text {
     padding-inline: 2.4rem;
     text-align: center;
