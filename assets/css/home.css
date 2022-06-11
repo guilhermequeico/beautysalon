@@ -12,7 +12,7 @@
     height: 22.432rem;
     margin-top: 7.268rem;
     position: relative;
-    left: -.8rem;
+    right: .8rem;
 }
 
 #home .image::before {
@@ -21,8 +21,8 @@
     height: 24.227rem;
     background-color: var(--second-color);
     position: absolute;
-    top: -18%;
-    left: 14.7%;
+    bottom: 2.273rem;
+    left: 4.7rem;
     z-index: -1;
 }
 
