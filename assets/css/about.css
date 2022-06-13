@@ -1,0 +1,45 @@
+#about {
+    padding-top: 0;
+    overflow: hidden;
+    background-color: var(--background-2);
+}
+
+#about .container {
+    margin-inline: 0;
+}
+
+#about .image {
+    width: 38.792rem;
+    height: 25.865rem;
+    margin-top: 10.135rem;
+    position: relative;
+    right: 1.292rem;
+}
+
+#about .image::before {
+    content: '';
+    width: 36.529rem;
+    height: 25.426rem;
+    background-color: var(--second-color);
+    position: absolute;
+    bottom: 2.574rem;
+    right: 12.071rem;
+    z-index: -1;
+}
+
+#about .image::before,
+#about .image img {
+    border-radius: .4rem;
+}
+
+#about .text {
+    padding-inline: 2.4rem;
+}
+
+#about .text .title {
+    margin-bottom: 1.6rem;
+}
+
+#about .text p {
+    width: 32.7rem;
+}
