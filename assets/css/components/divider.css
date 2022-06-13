@@ -9,3 +9,8 @@
 .divider--1 {
     background: var(--gradient);
 }
+
+.divider--2 {
+    background: var(--gradient);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
