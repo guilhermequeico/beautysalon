@@ -14,3 +14,8 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+#services .cards {
+    display: grid;
+    gap: 2.4rem;
+}
