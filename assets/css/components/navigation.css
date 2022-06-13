@@ -7,13 +7,15 @@
 }
 
 .navigation .menu {
-    opacity: 0;
-    visibility: hidden;
+    display: none;
+}
+
+.navigation .icon-close {
+    display: none;
 }
 
 .navigation.show .menu {
-    opacity: 1;
-    visibility: visible;
+    display: block;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -22,6 +24,7 @@
     background-color: var(--background-2);
     z-index: 1;
 }
+
 
 .navigation.show .menu ul {
     height: 100%;
@@ -35,4 +38,33 @@
 
 .navigation.show .menu ul li a {
     color: var(--dark);
+}
+
+.navigation .menu ul li a {
+    position: relative;
+    transition: color 0.2s;
+}
+
+.navigation .menu ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: -2.4rem;
+    transition: width 0.2s;
+}
+
+.navigation .menu ul li a:hover {
+    color: var(--primary-color);
+}
+
+.navigation .menu ul li a:hover::after {
+    width: 100%;
+}
+
+.navigation.show .icon-close {
+    display: block;
+    z-index: 1;
 }
