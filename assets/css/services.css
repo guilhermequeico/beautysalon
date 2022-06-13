@@ -1,0 +1,16 @@
+#services .grid {
+    gap: 6.4rem;
+}
+
+#services header .title {
+    margin-bottom: 1.6rem;
+}
+
+#services header p {
+    color: var(--dark);
+}
+
+#services header strong {
+    font-weight: 700;
+    color: var(--primary-color);
+}
