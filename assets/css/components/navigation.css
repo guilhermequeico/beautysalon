@@ -11,7 +11,10 @@
 }
 
 .navigation .icon-close {
-    display: none;
+    position: absolute;
+    top: -2.4rem;
+    right: 2.4rem;
+    transition: 0.2s;
 }
 
 .navigation.show .menu {
@@ -64,8 +67,8 @@
 }
 
 .navigation.show .icon-close {
-    display: block;
     position: fixed;
+    top: 2.4rem;
     right: 2.4rem;
     z-index: 1;
 }
