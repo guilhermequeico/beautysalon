@@ -34,13 +34,10 @@
 }
 
 #about .text {
+    width: 100vw;
     padding-inline: 2.4rem;
 }
 
 #about .text .title {
     margin-bottom: 1.6rem;
-}
-
-#about .text p {
-    width: 32.7rem;
 }
