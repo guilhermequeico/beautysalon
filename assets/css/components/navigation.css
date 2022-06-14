@@ -7,6 +7,12 @@
 }
 
 .navigation .menu {
+    position: absolute;
+    top: -32rem;
+    transition: 0.2s;
+}
+
+.navigation .menu ul {
     display: none;
 }
 
