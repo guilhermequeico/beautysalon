@@ -1,0 +1,8 @@
+.swiper-pagination-bullet {
+    width: 1rem;
+    height: 1rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primary-color);
+}
