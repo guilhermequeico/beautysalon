@@ -1,0 +1,10 @@
+#testimonials {
+    background-color: var(--background-2);
+}
+#testimonials .grid {
+    gap: 6.4rem;
+}
+
+#testimonials header .title {
+    width: 25.9rem;
+}
