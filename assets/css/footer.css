@@ -1,0 +1,24 @@
+#footer {
+    padding-block: 6.4rem;
+    background-color: var(--primary-color);
+}
+
+#footer .brand .logo {
+    display: block;
+    margin-bottom: 2.4rem;
+}
+
+#footer .brand p {
+    line-height: 2.1rem;
+    color: var(--background-1);
+}
+
+#footer .brand p:last-child {
+    margin-top: 1.2rem;
+}
+
+#footer .social ul {
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+}
