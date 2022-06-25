@@ -22,3 +22,12 @@
     gap: 3.2rem;
     list-style: none;
 }
+
+#footer .social a {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+#footer .social a:hover {
+    transform: translateY(-8px);
+}
