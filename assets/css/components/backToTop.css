@@ -1,0 +1,13 @@
+.backToTop {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.backToTop.show {
+    visibility: visible;
+    opacity: 1;
+}
