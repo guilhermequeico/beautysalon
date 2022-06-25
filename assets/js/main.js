@@ -43,3 +43,12 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(`#home .image, #home .text, #about .image, #about .text, #services header, #services .card, #testimonials header, #testimonials .testimonials, #contact .text, #contact .links`, {interval: 100})
+
+const backToTopButton = document.querySelector('.back-to-top')
+window.addEventListener('scroll', function() {
+    if (window.scrollY >= 400) {
+        backToTopButton.classList.add('show')
+    } else {
+        backToTopButton.classList.remove('show')
+    }
+})
