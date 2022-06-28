@@ -77,3 +77,27 @@
     right: 2.4rem;
     z-index: 1;
 }
+
+@media (min-width: 1200px) {
+    .navigation .menu {
+        position: static;
+    }
+
+    .navigation .menu ul {
+        display: flex;
+        gap: 3.2rem;
+        list-style: none;
+    }
+
+    .navigation .menu ul li a {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+        color: var(--dark);
+    }
+
+    .navigation .icon-menu {
+        display: none;
+    }
+}
