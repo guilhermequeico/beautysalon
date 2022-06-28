@@ -14,3 +14,10 @@
 .logo--footer span {
     color: var(--background-1);
 }
+
+@media (min-width: 1200px) {
+    .logo {
+        font-size: 2.4rem;
+        line-height: 2.5rem;
+    }
+}
