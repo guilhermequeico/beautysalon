@@ -1,3 +1,10 @@
 .container {
     margin-inline: 2.4rem;
 }
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1120px;
+        margin-inline: auto;
+    }
+}
