@@ -41,3 +41,9 @@ a {
     display: grid;
     gap: 3.2rem;
 }
+
+@media (min-width: 1200px) {
+    .section {
+        padding-block: 16rem;
+    }
+}
