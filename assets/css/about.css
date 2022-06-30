@@ -41,3 +41,53 @@
 #about .text .title {
     margin-bottom: 1.6rem;
 }
+
+@media (min-width: 1200px) {
+    #about {
+        padding-top: 16rem;
+    }
+
+    #about .grid {
+        gap: 1.8rem;
+    }
+
+    #about .container {
+        grid-auto-flow: column;
+        justify-content: space-between;
+    }
+
+    #about .image {
+        width: 61.7rem;
+        height: 41.2rem;
+        margin-top: 3.4rem;
+        right: 4.6rem;
+    }
+
+    #about .image::before {
+        width: 58.1rem;
+        height: 40.5rem;
+        bottom: 4.1rem;
+        right: 19.2rem;
+    }
+
+    #about .text {
+        max-width: 61rem;
+        margin-top: 3.4rem;
+        padding-inline: 0;
+    }
+
+    #about .text .title {
+        margin-bottom: 1.2rem;
+    }
+
+    #about .text p {
+        line-height: 2.4rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    #about .container {
+        margin-inline: auto;
+        justify-content: center;
+    }
+}
