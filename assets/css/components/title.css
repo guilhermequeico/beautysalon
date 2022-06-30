@@ -5,3 +5,11 @@
     line-height: 4.5rem;
     color: #000;
 }
+
+@media (min-width: 1200px) {
+    .title {
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+        color: var(--dark);
+    }
+}
