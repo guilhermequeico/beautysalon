@@ -19,3 +19,20 @@
     display: grid;
     gap: 2.4rem;
 }
+
+@media (min-width: 1200px) {
+    #services header {
+        max-width: 52.3rem;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    #services header .title {
+        margin-bottom: 1.2rem;
+    }
+
+    #services header p {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+}
