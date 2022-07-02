@@ -21,3 +21,14 @@
     margin-inline: 3.2rem;
     text-align: center;
 }
+
+@media (min-width: 1200px) {
+    .card {
+        height: 35.2rem;
+    }
+
+    .card p {
+        margin-inline: 4.8rem;
+        line-height: 2.1rem;
+    }
+}
