@@ -35,4 +35,8 @@
         font-size: 1.8rem;
         line-height: 2.3rem;
     }
+
+    #services .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
