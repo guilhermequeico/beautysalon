@@ -33,6 +33,9 @@
 }
 
 @media (min-width: 1200px) {
+    #footer {
+        padding-block: 6rem;
+    }
     #footer .container {
         grid-auto-flow: column;
         align-items: center;
