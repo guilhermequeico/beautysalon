@@ -8,3 +8,15 @@
 #testimonials header .title {
     width: 25.9rem;
 }
+
+@media (min-width: 1200px) {
+    #testimonials header {
+        max-width: 48.1rem;
+        margin-inline: auto;
+    }
+
+    #testimonials header .title {
+        width: 100%;
+        text-align: center;
+    }
+}
