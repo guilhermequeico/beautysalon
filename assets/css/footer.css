@@ -31,3 +31,15 @@
 #footer .social a:hover {
     transform: translateY(-8px);
 }
+
+@media (min-width: 1200px) {
+    #footer .container {
+        grid-auto-flow: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #footer .brand .logo {
+        
+    }
+}
