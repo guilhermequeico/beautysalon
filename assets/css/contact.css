@@ -24,3 +24,31 @@
     align-items: center;
     gap: 1.2rem;
 }
+
+@media (min-width: 1200px) {
+    #contact .container {
+        grid-auto-flow: column;
+        align-items: center;
+    }
+
+    #contact .text {
+        width: 40.4rem;
+    }
+
+    #contact .text p {
+        width: 36.4rem;
+        margin-top: 1.2rem;
+        margin-bottom: 2.4rem;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+
+    #contact .text .button {
+        height: 5rem;
+    }
+
+    #contact .links ul li {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+}
