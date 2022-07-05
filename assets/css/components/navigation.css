@@ -65,11 +65,11 @@
 
 .navigation .menu ul li a:hover,
 .navigation .menu ul li a.active {
-    font-weight: 700;
+    /* font-weight: 700; */
     color: var(--primary-color);
 }
 
-.navigation .menu ul li a:hover::after,
+/* .navigation .menu ul li a:hover::after, */
 .navigation .menu ul li a.active::after {
     width: 100%;
 }
