@@ -59,7 +59,7 @@
     background-color: var(--primary-color);
     position: absolute;
     left: 0;
-    bottom: -2.4rem;
+    bottom: -2.7rem;
     transition: width 0.2s;
 }
 
