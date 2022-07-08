@@ -48,7 +48,7 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone https://github.com/guilhermequeico/beautysalon.git
-$ cd camp.in
+$ cd beautsalon
 ```
 Agora é só abrir o arquivo <i>index.html</i> em seu navegador favorito.
 
