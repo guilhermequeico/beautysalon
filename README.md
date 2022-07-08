@@ -15,9 +15,9 @@
 
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=69B99D&labelColor=0F241D" alt="License">
   
-  <img src="https://img.shields.io/github/forks/guilhermequeico/camp.in?label=forks&message=MIT&color=69B99D&labelColor=0F241D" alt="Forks">
+  <img src="https://img.shields.io/github/forks/guilhermequeico/beautysalon?label=forks&message=MIT&color=69B99D&labelColor=0F241D" alt="Forks">
 
-  <img src="https://img.shields.io/github/stars/guilhermequeico/camp.in?label=stars&message=MIT&color=69B99D&labelColor=0F241D" alt="Stars">
+  <img src="https://img.shields.io/github/stars/guilhermequeico/beautysalon?label=stars&message=MIT&color=69B99D&labelColor=0F241D" alt="Stars">
 </p>
 
 <br>
@@ -41,7 +41,7 @@ Neste projeto desenvolvi para o salão beautysalon uma página institucional no 
 ## 🔎 Preview
 Quer dar uma olhadinha como ficou o projeto?
 
-Acesse: [beautysalon.](guilhermequeico.github.io/beautysalon/)
+Acesse: [beautysalon.](https://guilhermequeico.github.io/beautysalon/)
 
 ## 🚀 Como executar
 Clone o projeto e acesse a pasta do mesmo.
