@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ScrollReveal](https://scrollrevealjs.org/)
 - [Swiper](https://swiperjs.com/)
 
-## 💻 Projeto
+## 🏗️ Projeto
 Neste projeto desenvolvi para o salão beautysalon uma página institucional no formato One Page responsiva, com o proposito de divulgar o espaço e captar futuros clientes. 
 
 ## 🔎 Preview
